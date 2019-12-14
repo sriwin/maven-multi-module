@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="module3-suite" parallel="methods" thread-count="2"
+       configfailurepolicy="continue">
+    <test name="module3-test">
+        <classes>
+            <class name="com.sriwin.automation.SendStatusTest"></class>
+        </classes>
+    </test>
+</suite>
